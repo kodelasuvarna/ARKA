@@ -115,7 +115,37 @@
         </div>
     </nav>
     <!-- Navbar End -->
-
+    <div class="whatsapp">
+        <a href="https://wa.me/+919398819667"
+          ><i class="fa fa-whatsapp" ></i></a>
+      </div>
+      <style>
+        .whatsapp {
+          position: fixed;
+          bottom: 10px;
+          left: 10px;
+          z-index: 999;
+        }
+  
+        .whatsapp a i {
+          color: white;
+          font-size: 35px;
+          background-color:#06a3da;
+          border-radius: 50%;
+          padding: 10px;
+          animation: wh 2s linear infinite;
+          box-shadow: 2px 3px 4px white;
+        }
+        @keyframes wh {
+          0%,
+          100% {
+            transform: scale(0.9);
+          }
+          50% {
+            transform: scale(1);
+          }
+        }
+      </style>
 
     <!-- Full Screen Search Start -->
     <div class="modal fade" id="searchModal" tabindex="-1">
