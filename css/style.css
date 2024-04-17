@@ -205,6 +205,11 @@ h6,
     url(../img/about.bg.jpg) center center no-repeat;
   background-size: cover;
 }
+.hero-header2 {
+  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)),
+    url(../img/bg-img2.webp) center center no-repeat;
+  background-size: cover;
+}
 
 .appointment-form {
   background: #ffc107f5;
@@ -566,4 +571,17 @@ h6,
   align-items: center;
   visibility: hidden;
   z-index: 10000;
+}
+.list-icon li i {
+  color: #555555;
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+  margin: 5px 10px 5px 0;
+  text-align: center;
+  width: 28px;
+}
+
+.text-theme-colored {
+  color: #bf4208 !important;
 }
