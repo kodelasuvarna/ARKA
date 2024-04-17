@@ -539,28 +539,9 @@ h6,
     color: #e31a1a;
     width: 100px;
   }
-  #ftco-loader.fullscreen {
-    padding: 0;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    -webkit-transform: none;
-    -ms-transform: none;
-    transform: none;
-    background-color: #fff;
-    border-radius: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-#ftco-loader {
-    position: fixed;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    visibility: hidden;
-    z-index: 10000;
-}
+  /* .img-fluid1 {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid rgba(228, 0, 125, 1);
+    border-radius: 10px;
+  } */
