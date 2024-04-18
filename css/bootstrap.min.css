@@ -3203,7 +3203,7 @@ fieldset:disabled .btn {
   position: absolute;
   z-index: 1000;
   display: none;
-  min-width: 10rem;
+  min-width: 12rem;
   /* padding:0 0.5rem ; */
   margin: 0;
   font-size: 1rem;
@@ -10042,7 +10042,12 @@ fieldset:disabled .btn {
 }
 .dropdown-submenu:hover .dropdown-menu{
   display: block;
+ 
 }
 .caret{
   float: right;
+}
+.dropdown-submenu.dropdown-menu:hover {
+  display: block;
+ text-decoration: underline;
 }
