@@ -585,3 +585,11 @@ h6,
 .text-theme-colored {
   color: #bf4208 !important;
 }
+.bg-primary2{
+  background-color: #06a3da !important;
+}
+.box{
+  width:400px;
+  height:400px;
+  margin: 10px;
+}

@@ -6911,7 +6911,9 @@ fieldset:disabled .btn {
 .rounded-top {
   border-top-left-radius: 2px !important;
   border-top-right-radius: 2px !important;
+
 }
+
 .rounded-end {
   border-top-right-radius: 2px !important;
   border-bottom-right-radius: 2px !important;
