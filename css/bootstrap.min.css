@@ -3204,7 +3204,7 @@ fieldset:disabled .btn {
   z-index: 1000;
   display: none;
   min-width: 12rem;
-  /* padding:0 0.5rem ; */
+  padding:0 0rem ;
   margin: 0;
   font-size: 1rem;
   color: #6b6a75;
@@ -3417,7 +3417,7 @@ fieldset:disabled .btn {
 .dropdown-item:active {
   color: #fff;
   text-decoration: underline;
-  background-color: var(--primary-color);
+  background-color: #ffc107f5;
 }
 .dropdown-item.disabled,
 .dropdown-item:disabled {
