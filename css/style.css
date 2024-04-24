@@ -593,3 +593,6 @@ h6,
   height:400px;
   margin: 10px;
 }
+.pl-3{
+  padding:0 3rem!important;
+}
