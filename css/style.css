@@ -29,10 +29,18 @@ h6,
   font-weight: 600;
   transition: 0.5s;
 }
-
+.logo a h2 span {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: transparent;
+  background: rgba(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 7%, rgba(255, 202, 2, 1) 54%);
+  -webkit-background-clip: text;
+}
 .btn-primary,
 .btn-secondary {
-  color: #ffffff;
+  
 }
 
 .btn-primary:hover {
@@ -96,7 +104,7 @@ h6,
   height: 100%;
   top: 0;
   left: -17px;
-  background: #9b4922;
+  background: #000000;
   transform: skew(40deg);
 }
 
@@ -104,7 +112,7 @@ h6,
   font-family: "Jost", sans-serif;
   padding: 35px 35px;
   font-size: 18px;
-  color: var(--dark);
+  color:yellow;
   outline: none;
   transition: 0.5s;
 }
@@ -115,7 +123,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #9b4922;
+  color: white;
 }
 
 @media (max-width: 991.98px) {
@@ -123,6 +131,19 @@ h6,
   .sticky-top.navbar-light .navbar-nav .nav-link {
     padding: 10px 0;
   }
+}
+.logo a h2 {
+  font-size: 16px;
+  letter-spacing: 10px;
+  color: white;
+  margin: 0;
+}
+.logo img {
+  border-radius: 50%;
+}
+img {
+  vertical-align: middle;
+  border-style: none;
 }
 
 .carousel-caption {
