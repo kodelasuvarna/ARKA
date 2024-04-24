@@ -104,7 +104,7 @@ h6,
   height: 100%;
   top: 0;
   left: -17px;
-  background: #000000;
+  background: rgb(156, 72, 34);
   transform: skew(40deg);
 }
 
@@ -123,7 +123,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: white;
+  color:#9c4822;
 }
 
 @media (max-width: 991.98px) {
