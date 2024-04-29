@@ -5621,7 +5621,7 @@ fieldset:disabled .btn {
   background-color: currentColor;
   border-radius: 50%;
   opacity: 0;
-  animation: 0.75s linear infinite spinner-grow;
+  animation: 1.75s linear infinite spinner-grow;
 }
 .spinner-grow-sm {
   width: 1rem;
@@ -5630,7 +5630,7 @@ fieldset:disabled .btn {
 @media (prefers-reduced-motion: reduce) {
   .spinner-border,
   .spinner-grow {
-    animation-duration: 1.5s;
+    animation-duration: 3.5s;
   }
 }
 .offcanvas {
@@ -6808,7 +6808,7 @@ fieldset:disabled .btn {
   color: #eef9ff !important;
 }
 .text-dark {
-  color: #06a3da!important;
+  color: #efe7dd!important;
 }
 .text-white {
   color: #fff !important;
