@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-  --primary: #06a3da;
+  --primary: #e6b487;
   --secondary: #9c4822;
   --light: #eef9ff;
   --dark: #091e3e;
@@ -36,13 +36,13 @@ h6,
 }
 
 .btn-primary:hover {
-  background: var(--secondary);
-  border-color: var(--secondary);
+  background: #e6b487;
+  border-color: #e6b487;
 }
 
 .btn-secondary:hover {
-  background: var(--primary);
-  border-color: var(--primary);
+  background: #efe7dd;
+  border-color: #efe7dd;
 }
 
 .btn-square {
@@ -101,12 +101,14 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-family: "Jost", sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   padding: 35px 35px;
   font-size: 18px;
   color: var(--dark);
   outline: none;
   transition: 0.5s;
+  letter-spacing: 0.2px;
+  
 }
 
 .sticky-top.navbar-light .navbar-nav .nav-link {
@@ -115,7 +117,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #9b4922;
+  color: #9c4a23;
 }
 
 @media (max-width: 991.98px) {
@@ -205,9 +207,14 @@ h6,
     url(../img/about.bg.jpg) center center no-repeat;
   background-size: cover;
 }
+.hero-header2 {
+  background: linear-gradient(rgba(9, 30, 62, 0.85), rgba(9, 30, 62, 0.85)),
+    url(../img/bg-img2.webp) center center no-repeat;
+  background-size: cover;
+}
 
 .appointment-form {
-  background: #ffc107f5;
+  background: #e6b487;
 }
 
 .service-item img,
@@ -247,7 +254,7 @@ h6,
 }
 
 .offer-text {
-  background: rgba(6, 163, 218, 0.85);
+  background: #784d38;
 }
 
 .price-carousel .owl-nav {
@@ -567,3 +574,58 @@ h6,
   visibility: hidden;
   z-index: 10000;
 }
+.list-icon li i {
+  color: #555555;
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+  margin: 5px 10px 5px 0;
+  text-align: center;
+  width: 28px;
+}
+
+.text-theme-colored {
+  color: #bf4208 !important;
+}
+.bg-primary2{
+  background-color: #e6b487 !important;
+}
+.box{
+  width:400px;
+  height:400px;
+  margin: 10px;
+}
+.pl-3{
+  padding:0 3rem!important;
+}
+
+      .instagrami {
+        position: fixed;
+        bottom:10px;
+        right: 10px;
+        z-index: 999;
+      }
+
+      .instagrami a i {
+        color: white;
+        font-size: 25px;
+       
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+        border-radius:10px solid rgb(230, 100, 101);
+        padding: 10px;
+        animation: wh 2s linear infinite;
+        box-shadow: 2px 3px 4px white;
+        
+      }
+
+      /* @keyframes wh {
+        0%,
+        100% {
+          transform: scale(0.9);
+        }
+
+        50% {
+          transform: scale(1);
+        }
+      } */
+     
