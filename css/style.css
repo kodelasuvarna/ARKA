@@ -340,7 +340,7 @@ h6,
 
 .abt_sections {
   position: relative;
-  padding: 50px 0 50px;
+  /* padding: 50px 0 50px; */
 }
 
 .abt_sections::before {
@@ -723,3 +723,10 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100
           display:block;
         }
       } */
+
+      .dc-img{
+        display: block;
+        @media (max-width:992px){
+          display: none;
+        }
+      }
