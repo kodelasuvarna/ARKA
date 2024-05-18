@@ -3490,7 +3490,7 @@ padding: 0;
 .dropdown-item1{
   font-size:1.5rem;
   font-weight: 600;
-  border-bottom: 5px solid var(--primary-color);
+  /* border-bottom: 3px solid var(--primary-color); */
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
