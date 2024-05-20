@@ -4,6 +4,7 @@
   --secondary: #9c4822;
   --light: #eef9ff;
   --dark: #091e3e;
+  --layer:#9c49239a;
 }
 
 h1,
@@ -79,6 +80,7 @@ h6,
   transition: opacity 0.5s ease-out, visibility 0s linear 0s;
   visibility: visible;
   opacity: 1;
+  background-color: white;
 }
 
 .back-to-top {
@@ -254,7 +256,7 @@ h6,
 }
 
 .offer-text {
-  background: #784d38;
+  background: var(--secondary);
 }
 
 .price-carousel .owl-nav {
@@ -299,7 +301,7 @@ h6,
 }
 
 .testimonial-carousel {
-  background: rgba(6, 163, 218, 0.85);
+  background: var(--layer);
 }
 
 .testimonial-carousel .owl-nav {
