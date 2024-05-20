@@ -122,4 +122,41 @@
     
     
 })(jQuery);
+// Define an array of objects representing your website content
+const content = [
+    { title: "Page 1", url: "about.html", keywords: ["doctor", "about arka", "about"] },
+    { title: "Page 2", url: "best-Full-Mouth-Implant.html", keywords: ["mouth implants", "mouth problem", "mouth"] },
+    // Add more content objects as needed
+  ];
+  
+  // Function to search for content based on user input
+  function searchContent(query) {
+    query = query.toLowerCase();
+    for (let item of content) {
+      if (item.keywords.includes(query)) {
+        window.location.href = item.url;
+        return;
+      }
+    }
+    alert("No matching content found.");
+  }
+  
+  // Event listener for the search button
+  document.getElementById("search-button").addEventListener("click", function() {
+    const searchInput = document.getElementById("search-input").value.trim();
+    if (searchInput !== "") {
+      searchContent(searchInput);
+    }
+  });
+  
+  // Optional: Allow searching on pressing Enter key
+  document.getElementById("search-input").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+      const searchInput = document.getElementById("search-input").value.trim();
+      if (searchInput !== "") {
+        searchContent(searchInput);
+      }
+    }
+  });
+  
 
